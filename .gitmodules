@@ -1,0 +1,12 @@
+[submodule "external/glfw"]
+	path = external/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "external/soil2"]
+	path = external/soil2
+	url = https://github.com/SpartanJ/SOIL2.git
+[submodule "external/assimp"]
+	path = external/assimp
+	url = https://github.com/assimp/assimp.git
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/Groovounet/glm.git
