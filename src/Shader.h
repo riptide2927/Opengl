@@ -10,6 +10,8 @@ public:
     Shader(const std::string& verfilepath, const std::string& fragfilepath);
     ~Shader();
     int GetUniformLocation(const std::string& name);
+    void Bind();
+    void Unbind();
 private:
     void CreateProgram(const std::string& verfilepath, const std::string& fragfilepath);
     uint32_t CreateShader(const std::string& shadersrc_path, GLenum type);

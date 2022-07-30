@@ -93,3 +93,13 @@ const char* Shader::ParseFile(const std::string& filepath)
     return src.c_str();
 
 }
+
+void Shader::Bind()
+{
+    glUseProgram(m_Program);
+}
+
+void Shader::Unbind()
+{
+    glUseProgram(0);
+}
