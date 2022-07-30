@@ -1,6 +1,7 @@
 #include "Window.h"
 
 Window::Window(const std::string& Title, int Width, int Height)
+    : m_Title(Title), m_Width(Width), m_Height(Height)
 {
     glfwInit();
     CreateWindow();
